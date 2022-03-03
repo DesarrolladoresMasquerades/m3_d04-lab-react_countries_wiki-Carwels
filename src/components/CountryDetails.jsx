@@ -8,6 +8,7 @@ export default function CountyDetails(props) {
         <div className="col-7">
         <table className="table">
         <tr>
+        
                   <td>{props.country.name}</td>
                   <td>{props.country.capital}</td>
                   <td>{props.country.region}</td>
